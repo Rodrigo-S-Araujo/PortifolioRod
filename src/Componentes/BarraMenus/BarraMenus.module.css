@@ -1,0 +1,15 @@
+.linkEstilizado {
+  box-shadow: 2px;
+  display: flex;
+  gap: 5px;
+  align-items: center;
+  justify-content: center;
+  max-width: 14vw;
+  border-radius: 15px;
+  padding: 10px;
+  text-decoration: none;
+  img {
+    max-width: 30px;
+    height: auto;
+  }
+}

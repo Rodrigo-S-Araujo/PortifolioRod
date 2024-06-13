@@ -1,0 +1,22 @@
+[
+  {
+    "id": 1,
+    "titulo": "HTML",
+    "descricao": "A base da web, define a estrutura e o conteúdo das páginas (como a planta baixa de uma casa)."
+  },
+  {
+    "id": 2,
+    "titulo": "CSS",
+    "descricao": "O mestre da aparência, estiliza as páginas com cores, fontes e layouts (como a decoração da casa)."
+  },
+  {
+    "id": 3,
+    "titulo": "JavaScript",
+    "descricao": "A alma da interatividade, cria páginas dinâmicas que respondem ao usuário (como eletrodomésticos inteligentes)."
+  },
+  {
+    "id": 4,
+    "titulo": "React",
+    "descricao": "O construtor de interfaces, facilita a criação de interfaces complexas e reutilizáveis (como construir um condomínio)."
+  }
+]

@@ -1,0 +1,23 @@
+[
+  {
+    "id": "1",
+    "titulo": "Imersão Inteligência Artificial 2ª Edição",
+    "path": "https://cursos.alura.com.br/user/digoruddy/immersion/certificate/24877",
+    "src": "/assets/alura.svg",
+    "src2": "/assets/google.svg"
+  },
+  {
+    "id": "2",
+    "titulo": "Santander Open Academy & Ada.Tech || Trilha digital",
+    "path": "https://ada.tech/certificado?code=04e4fa12-1524-ac09-70b9-1e567a1431df",
+    "src": "https://ada-site-frontend.s3.sa-east-1.amazonaws.com/home/header-logo.svg",
+    "src2": "https://www.santander.com.br/mfe-home-header/assets/img/appsantander.svg"
+  },
+  {
+    "id": "3",
+    "titulo": "DIO. || Introdução ao Desenvolvimento Web com JavaScript",
+    "path": "https://www.dio.me/certificate/E8XM47QU/share",
+    "src": "https://hermes.dio.me/users/student/b87cd9d9-ec32-4e86-92c0-f2ec6e3f06a8.jpg",
+    "src2": ""
+  }
+]

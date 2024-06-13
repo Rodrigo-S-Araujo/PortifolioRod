@@ -1,0 +1,177 @@
+[
+  {
+    "id": "1",
+    "src": "https://www.alura.com.br/assets/img/formacao/step-alura.svg",
+    "src2": "",
+    "titulo": "Imersão Inteligência Artificial 2ª Edição",
+    "path": "https://cursos.alura.com.br/user/digoruddy/immersion/certificate/24877"
+  },
+  {
+    "id": "2",
+    "src": "https://www.alura.com.br/assets/api/cursos/html-css-ambiente-arquivos-tags.svg",
+    "src2": "",
+    "titulo": "HTML e CSS: ambientes de desenvolvimento, estrutura de arquivos e tags",
+    "path": "https://cursos.alura.com.br/user/digoruddy/course/html-css-ambiente-arquivos-tags/certificate"
+  },
+  {
+    "id": "3",
+    "src": "https://www.alura.com.br/assets/api/cursos/html-css-cabecalho-footer-variaveis-css.svg",
+    "src2": "",
+    "titulo": "HTML e CSS: cabeçalho, footer e variáveis CSS",
+    "path": "https://cursos.alura.com.br/user/digoruddy/course/html-css-cabecalho-footer-variaveis-css/certificate"
+  },
+  {
+    "id": "4",
+    "src": "https://www.alura.com.br/assets/api/cursos/html-css-classes-posicionamento-flexbox.svg",
+    "src2": "",
+    "titulo": "HTML e CSS: Classes, posicionamento e Flexbox",
+    "path": "https://cursos.alura.com.br/user/digoruddy/course/html-css-classes-posicionamento-flexbox/certificate"
+  },
+  {
+    "id": "5",
+    "src": "https://www.alura.com.br/assets/api/cursos/html-css-praticando-html-css.svg",
+    "src2": "",
+    "titulo": "HTML e CSS: praticando HTML/CSS",
+    "path": "https://cursos.alura.com.br/user/digoruddy/course/html-css-praticando-html-css/certificate"
+  },
+  {
+    "id": "6",
+    "src": "https://www.alura.com.br/assets/api/cursos/html-css-responsividade-mobile-first.svg",
+    "src2": "",
+    "titulo": "HTML e CSS: responsividade com mobile-first",
+    "path": "https://cursos.alura.com.br/user/digoruddy/course/html-css-responsividade-mobile-first/certificate"
+  },
+  {
+    "id": "7",
+    "src": "https://www.alura.com.br/assets/api/cursos/html-css-responsividade-publicacao-projetos.svg",
+    "src2": "",
+    "titulo": "HTML e CSS: trabalhando com responsividade e publicação de projetos",
+    "path": "https://cursos.alura.com.br/user/digoruddy/course/html-css-responsividade-publicacao-projetos/certificate"
+  },
+  {
+    "id": "8",
+    "src": "https://www.alura.com.br/assets/api/cursos/http-fundamentos.svg",
+    "src2": "",
+    "titulo": "HTTP: Entendendo a web por baixo dos panos",
+    "path": "https://cursos.alura.com.br/user/digoruddy/course/http-fundamentos/certificate"
+  },
+  {
+    "id": "9",
+    "src": "https://www.alura.com.br/assets/api/cursos/javascript-web-armazenando-dados-navegador.svg",
+    "src2": "",
+    "titulo": "JavaScript na Web: armazenando dados no navegador",
+    "path": "https://cursos.alura.com.br/user/digoruddy/course/javascript-web-armazenando-dados-navegador/certificate"
+  },
+  {
+    "id": "10",
+    "src": "https://www.alura.com.br/assets/api/cursos/javascript-web-paginas-dinamicas.svg",
+    "src2": "",
+    "titulo": "JavaScript para Web: Crie páginas dinâmicas",
+    "path": "https://cursos.alura.com.br/user/digoruddy/course/javascript-web-paginas-dinamicas/certificate"
+  },
+  {
+    "id": "11",
+    "src": "https://www.alura.com.br/assets/api/cursos/javascript-consumindo-tratando-dados-api.svg",
+    "src2": "",
+    "titulo": "JavaScript: consumindo e tratando dados de uma API",
+    "path": "https://cursos.alura.com.br/user/digoruddy/course/javascript-consumindo-tratando-dados-api/certificate"
+  },
+  {
+    "id": "12",
+    "src": "https://www.alura.com.br/assets/api/cursos/javascript-consumindo-tratando-dados-uma-api.svg",
+    "src2": "",
+    "titulo": "JavaScript: consumindo e tratando dados de uma API",
+    "path": "https://cursos.alura.com.br/user/digoruddy/course/javascript-consumindo-tratando-dados-uma-api/certificate"
+  },
+  {
+    "id": "13",
+    "src": "https://www.alura.com.br/assets/api/cursos/javascript-criando-requisicoes.svg",
+    "src2": "",
+    "titulo": "JavaScript: criando requisições",
+    "path": "https://cursos.alura.com.br/user/digoruddy/course/javascript-criando-requisicoes/certificate"
+  },
+  {
+    "id": "14",
+    "src": "https://www.alura.com.br/assets/api/cursos/javascript-manipulacao-elementos-localstorage.svg",
+    "src2": "",
+    "titulo": "JavaScript: explorando a manipulação de elementos e da localStorage",
+    "path": "https://cursos.alura.com.br/user/digoruddy/course/javascript-manipulacao-elementos-localstorage/certificate"
+  },
+  {
+    "id": "15",
+    "src": "https://www.alura.com.br/assets/api/cursos/javascript-manipulando-elementos-dom.svg",
+    "src2": "",
+    "titulo": "JavaScript: manipulando elementos no DOM",
+    "path": "https://cursos.alura.com.br/user/digoruddy/course/javascript-manipulando-elementos-dom/certificate"
+  },
+  {
+    "id": "16",
+    "src": "https://www.alura.com.br/assets/api/cursos/javascript-manipulando-dom.svg",
+    "src2": "",
+    "titulo": "JavaScript: manipulando o DOM",
+    "path": "https://cursos.alura.com.br/user/digoruddy/course/javascript-manipulando-dom/certificate"
+  },
+  {
+    "id": "17",
+    "src": "https://www.alura.com.br/assets/api/cursos/javascript-metodos-array.svg",
+    "src2": "",
+    "titulo": "JavaScript: métodos de array",
+    "path": "https://cursos.alura.com.br/user/digoruddy/course/javascript-metodos-array/certificate"
+  },
+  {
+    "id": "18",
+    "src": "https://www.alura.com.br/assets/api/cursos/javascript-validacoes-reconhecimento-voz.svg",
+    "src2": "",
+    "titulo": "JavaScript: validações e reconhecimento de voz",
+    "path": "https://cursos.alura.com.br/user/digoruddy/course/javascript-validacoes-reconhecimento-voz/certificate"
+  },
+  {
+    "id": "19",
+    "src": "https://www.alura.com.br/assets/api/cursos/javascript-validando-formularios.svg",
+    "src2": "",
+    "titulo": "JavaScript: validando formulários",
+    "path": "https://cursos.alura.com.br/user/digoruddy/course/javascript-validando-formularios/certificate"
+  },
+  {
+    "id": "20",
+    "src": "https://www.alura.com.br/assets/api/cursos/node-js-terminal-ambiente-desenvolvimento-front-end.svg",
+    "src2": "",
+    "titulo": "Node.js e terminal: dominando o ambiente de desenvolvimento front-end",
+    "path": "https://cursos.alura.com.br/user/digoruddy/course/node-js-terminal-ambiente-desenvolvimento-front-end/certificate"
+  },
+  {
+    "id": "21",
+    "src": "https://www.alura.com.br/assets/api/cursos/praticando-css-grid-flexbox.svg",
+    "src2": "",
+    "titulo": "Praticando CSS: Grid e Flexbox",
+    "path": "https://cursos.alura.com.br/user/digoruddy/course/praticando-css-grid-flexbox/certificate"
+  },
+  {
+    "id": "22",
+    "src": "https://www.alura.com.br/assets/api/cursos/react-componentes-funcionam.svg",
+    "src2": "",
+    "titulo": "React: como os componentes funcionam",
+    "path": "https://cursos.alura.com.br/user/digoruddy/course/react-componentes-funcionam/certificate"
+  },
+  {
+    "id": "23",
+    "src": "https://www.alura.com.br/assets/api/cursos/react-desenvolvendo-javascript.svg",
+    "src2": "",
+    "titulo": "React: desenvolvendo com JavaScript",
+    "path": "https://cursos.alura.com.br/user/digoruddy/course/react-desenvolvendo-javascript/certificate"
+  },
+  {
+    "id": "24",
+    "src": "https://www.alura.com.br/assets/api/cursos/React-desenvolvendo-react-router-javaScript.svg",
+    "src2": "",
+    "titulo": "React: desenvolvendo em React Router com JavaScript",
+    "path": "https://cursos.alura.com.br/user/digoruddy/course/React-desenvolvendo-react-router-javaScript/certificate"
+  },
+  {
+    "id": "25",
+    "src": "https://www.alura.com.br/assets/api/cursos/react-estilize-componentes-styled-components-manipule-arquivos-estaticos.svg",
+    "src2": "",
+    "titulo": "React: estilize componentes com Styled Components e manipule arquivos estáticos",
+    "path": "https://cursos.alura.com.br/user/digoruddy/course/react-estilize-componentes-styled-components-manipule-arquivos-estaticos/certificate"
+  }
+]
