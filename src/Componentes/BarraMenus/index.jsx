@@ -1,6 +1,5 @@
-import styles from "./BarraMenus.module.css";
-import { Link } from "react-router-dom";
 import styled from "styled-components";
+import BotaoPrincipal from "../BotaoPrincipal";
 
 const MenusSuperiores = styled.nav`
   display: flex;
@@ -12,14 +11,12 @@ const MenusSuperiores = styled.nav`
 const BarraMenus = () => {
   return (
     <MenusSuperiores>
-      <Link className={styles.linkEstilizado}>
-        <img src="/assets/Home-branco.png" alt="icone homepage" />
-        <h4>Home</h4>
-      </Link>
-      <Link className={styles.linkEstilizado}>
-        <img src="/assets/avatar-branco.png" alt="icone Sobre Mim" />
-        <h4>Sobre mim...</h4>
-      </Link>
+      <BotaoPrincipal to={"/"} img={"/assets/Home-branco.png"}>
+        Home
+      </BotaoPrincipal>
+      <BotaoPrincipal to={"/sobremim"} img={"/assets/avatar-branco.png"}>
+        Sobre Mim
+      </BotaoPrincipal>
     </MenusSuperiores>
   );
 };

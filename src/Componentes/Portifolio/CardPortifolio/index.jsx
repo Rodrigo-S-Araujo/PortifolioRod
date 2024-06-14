@@ -6,6 +6,9 @@ const CardPortifolioEstilizada = styled.li`
   align-items: center;
   flex-direction: column;
   max-width: 50%;
+  :hover {
+    opacity: 100%;
+  }
 `;
 const ContainerBotoes = styled.div`
   display: flex;
@@ -16,9 +19,6 @@ const ContainerBotoes = styled.div`
   height: 100px;
   width: 130px;
   justify-content: center;
-  :hover {
-    opacity: 100%;
-  }
 `;
 const BotaoGit = styled.a`
   text-decoration: none;

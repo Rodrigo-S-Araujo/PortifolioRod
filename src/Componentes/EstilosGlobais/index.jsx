@@ -3,8 +3,10 @@ import { createGlobalStyle } from "styled-components";
 const EstilosGlobais = createGlobalStyle`
 
 :root {
- 
+
     --cor-da-fonte: #fff;
+    --cor-bg-primaria: #232323;
+    --cor-bg-secundaria: #505050;
     --fonte-primaria: "Bruno Ace", sans-serif;
     --fonte-secundaria: "Calistoga", serif;
 }
