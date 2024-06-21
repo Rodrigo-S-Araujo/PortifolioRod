@@ -1,5 +1,6 @@
 import styled from "styled-components";
 import IconeMenu from "/assets/seta-cinza.svg";
+import { useState } from "react";
 
 const BotaoEstilizado = styled.button`
   border-radius: 0 0 35px 0;
@@ -11,17 +12,18 @@ const BotaoEstilizado = styled.button`
   border: 0;
   img {
     transform: ${(props) =>
-      (props.ativo = "1" ? "rotate(180deg)" : "rotate(0)")};
+      props.estado === "inativo" ? "rotate(180deg)" : "rotate(0)"};
     width: 60px;
     height: auto;
     padding: 5px;
+    transition: transform 0.5s ease-in-out;
   }
 `;
 
-const BotaoMenuSobreMim = () => {
+const BotaoMenuSobreMim = ({ estado, onClick }) => {
   return (
     <div>
-      <BotaoEstilizado ativo="1">
+      <BotaoEstilizado estado={estado} onClick={onClick}>
         <img
           src={IconeMenu}
           alt="Icone de esconder ou expandir o menu lateral"

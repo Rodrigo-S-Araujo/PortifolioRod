@@ -5,14 +5,14 @@ import styled from "styled-components";
 const ContainerBotao = styled.div`
   margin: 0;
   padding: 0;
-
+  display: ${(props) => (props.estado === "ativo" ? "block" : "none")};
   :hover {
     background-color: rgba(255, 255, 255, 0.3);
   }
 `;
-const BotaoPrincipal = ({ children, img, to }) => {
+const BotaoPrincipal = ({ children, img, to, estado }) => {
   return (
-    <ContainerBotao>
+    <ContainerBotao estado={estado}>
       <Link className={styles.linkEstilizado} to={to}>
         <img src={img} alt={`Icone do botao de ${children}`} />
         <h4>{children}</h4>
