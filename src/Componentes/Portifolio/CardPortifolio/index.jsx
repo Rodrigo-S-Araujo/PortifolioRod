@@ -9,6 +9,9 @@ const CardPortifolioEstilizada = styled.li`
   :hover {
     opacity: 100%;
   }
+  @media (min-width: 1201px) {
+    max-width: 25%;
+  }
 `;
 const ContainerBotoes = styled.div`
   display: flex;

@@ -6,7 +6,7 @@ const PortifolioTitulo = styled.section`
   padding: 50px 0 30px 0;
 `;
 const ConteudoPortifolio = styled.ul`
-  padding: 5px;
+  padding: 5px 0;
   display: flex;
   justify-content: center;
   margin-bottom: 10%;

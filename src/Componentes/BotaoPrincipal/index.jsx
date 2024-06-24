@@ -9,8 +9,15 @@ const ContainerBotao = styled.div`
   :hover {
     background-color: rgba(255, 255, 255, 0.3);
   }
+  img {
+    max-width: 30px;
+    pointer-events: none;
+  }
+  h4 {
+    pointer-events: none;
+  }
 `;
-const BotaoPrincipal = ({ children, img, to, estado }) => {
+const BotaoPrincipal = ({ children, img, to, estado = "ativo" }) => {
   return (
     <ContainerBotao estado={estado}>
       <Link className={styles.linkEstilizado} to={to}>

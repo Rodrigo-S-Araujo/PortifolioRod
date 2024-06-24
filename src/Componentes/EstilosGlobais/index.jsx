@@ -59,6 +59,13 @@ h6 {
   margin: 0.2em 0;
   color : var(--cor-da-fonte);
 }
+p {
+  font-family: var(--fonte-secundaria);
+  font-size: 0.9rem;
+  font-weight: 100;
+  margin: 0.2em 0;
+  color : var(--cor-da-fonte);
+}
 hr {
   box-sizing: content-box; 
   height: 0; 

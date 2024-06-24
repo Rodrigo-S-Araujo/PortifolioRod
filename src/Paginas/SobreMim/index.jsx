@@ -1,12 +1,17 @@
 import styled from "styled-components";
 import MenuLateral from "../../Componentes/MenuLateral";
 import EstilosGlobais from "../../Componentes/EstilosGlobais";
-import BotaoMenuSobreMim from "../../Componentes/BotaoMenuSobremim";
+import ConteudoSobreMim from "../../Componentes/ConteudoSobreMim/indes";
 
 const ContainerSobreMim = styled.section`
   display: flex;
-  height: 100vh;
+  min-height: 90vh;
   background-color: #505050;
+
+  p {
+    text-align: justify;
+    text-indent: 1.5rem;
+  }
 `;
 const SobreMIm = () => {
   return (
@@ -14,6 +19,7 @@ const SobreMIm = () => {
       <EstilosGlobais />
       <ContainerSobreMim>
         <MenuLateral />
+        <ConteudoSobreMim />
       </ContainerSobreMim>
     </>
   );

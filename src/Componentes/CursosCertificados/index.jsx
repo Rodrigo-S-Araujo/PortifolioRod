@@ -17,7 +17,7 @@ const ContainerConteudo = styled.div`
 const ConteudoCursos = styled.ul`
   display: flex;
   padding: 0;
-  justify-content: space-between;
+  justify-content: space-evenly;
   flex-wrap: wrap;
 `;
 const BoxCurso = styled.li`
@@ -29,6 +29,13 @@ const BoxCurso = styled.li`
   margin: 5px 0;
   width: 40vw;
   height: 75px;
+
+  @media (min-width: 760px) and (max-width: 1200px) {
+    width: 25vw;
+  }
+  @media (min-width: 1201px) {
+    width: 15vw;
+  }
 `;
 const CursosCertificados = () => {
   return (

@@ -1,0 +1,10 @@
+.botaoVoltar {
+  text-decoration: none;
+  border: solid 2px var(--cor-da-fonte);
+  padding: 5px 8px;
+  border-radius: 15px;
+  margin-top: 10%;
+  &:hover {
+    background-color: rgba(255, 255, 255, 0.5);
+  }
+}

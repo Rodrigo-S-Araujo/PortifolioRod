@@ -12,6 +12,13 @@ const ContainerCover = styled.section`
   justify-content: center;
   padding-bottom: 50%;
   padding-top: 30%;
+  @media (min-width: 760px) and (max-width: 1200px) {
+    padding-bottom: 20%;
+  }
+  @media (min-width: 1201px) {
+    padding-bottom: 10%;
+    padding-top: 5%;
+  }
 `;
 
 const AvatarEstilizado = styled.img`
@@ -19,6 +26,12 @@ const AvatarEstilizado = styled.img`
   height: auto;
   padding: 5% 10% 0 10%;
   border-bottom: 1px solid #fff;
+  @media (min-width: 760px) and (max-width: 1200px) {
+    max-width: 40vw;
+  }
+  @media (min-width: 1201px) {
+    max-width: 20vw;
+  }
 `;
 const SpanStilizado = styled.strong`
   font-size: 2em;

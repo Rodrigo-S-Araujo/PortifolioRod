@@ -13,8 +13,8 @@ const ConteudoCards = styled.ul`
   display: flex;
   justify-content: space-around;
   flex-wrap: wrap;
-  padding: 0 10%;
-  gap: 10%;
+  padding: 0 5%;
+  gap: 5%;
 `;
 const Card = styled.li`
   border-top: 1px solid white;
@@ -24,8 +24,14 @@ const Card = styled.li`
 
   margin-bottom: 5%;
 
-  max-width: 40%;
+  max-width: 45%;
   min-height: 250px;
+  @media (min-width: 760px) and (max-width: 1200px) {
+    max-width: 20%;
+  }
+  @media (min-width: 1201px) {
+    max-width: 15%;
+  }
 `;
 
 const Habilidades = () => {

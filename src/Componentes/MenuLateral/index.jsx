@@ -14,7 +14,7 @@ const MenuEstilizado = styled.aside`
 
   box-sizing: border-box;
   height: 100%;
-  width: ${(props) => (props.estado === "inativo" ? "2vw" : "25vw")};
+  width: ${(props) => (props.estado === "inativo" ? "2vw" : "100px")};
   background-color: #232323;
   transition: width 0.5s ease-in-out;
 `;

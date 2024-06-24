@@ -7,7 +7,7 @@ import IconeLinkedin from "/assets/linkedin-branco.png";
 const ContainerIcones = styled.div`
   display: flex;
   align-items: center;
-  gap: 10vw;
+  gap: 20px;
 `;
 
 const IconesEstilizados = styled.img`

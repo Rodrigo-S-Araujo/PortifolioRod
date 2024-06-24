@@ -3,7 +3,7 @@ import BotaoPrincipal from "../BotaoPrincipal";
 
 const MenusSuperiores = styled.nav`
   display: flex;
-  gap: 15vw;
+  gap: 25px;
   justify-content: center;
   align-items: center;
 `;

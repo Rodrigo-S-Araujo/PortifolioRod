@@ -21,6 +21,12 @@ const ImgCard = styled.img`
   width: 100%;
   height: auto;
   object-fit: cover;
+  @media (min-width: 760px) and (max-width: 1200px) {
+    width: 50%;
+  }
+  @media (min-width: 1201px) {
+    width: 30%;
+  }
 `;
 const FigcaptionCard = styled.figcaption`
   position: absolute;
@@ -30,6 +36,14 @@ const FigcaptionCard = styled.figcaption`
   background-color: rgba(0, 0, 0, 0.5);
   padding: 5%;
   box-sizing: border-box;
+  @media (min-width: 760px) and (max-width: 1200px) {
+    width: 50%;
+    padding: 2%;
+  }
+  @media (min-width: 1201px) {
+    width: 30%;
+    padding: 1%;
+  }
 `;
 
 const CardNoticia = ({ props }) => {
