@@ -10,10 +10,16 @@ const ContainerNaoEncontrada = styled.section`
   align-items: center;
   text-align: center;
   background-color: var(--cor-bg-secundaria);
-  min-height: 90vh;
+  min-height: 96vh;
   img {
     max-width: 70vw;
     height: auto;
+    @media (min-width: 760px) and (max-width: 1200px) {
+      max-width: 40vw;
+    }
+    @media (min-width: 1201px) {
+      max-width: 20vw;
+    }
   }
 `;
 

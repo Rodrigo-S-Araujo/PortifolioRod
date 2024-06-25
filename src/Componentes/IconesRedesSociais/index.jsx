@@ -15,16 +15,28 @@ const IconesEstilizados = styled.img`
   max-height: 20px;
 `;
 
-const IconesRedesSociais = (ref, path, alt) => {
+const IconesRedesSociais = () => {
   return (
     <ContainerIcones>
-      <a href={"#"}>
-        <IconesEstilizados src={IconeGithub} alt={alt} />
+      <a
+        href="https://github.com/Rod-S-Araujo"
+        target="_blank"
+        rel="noopener noreferrer"
+      >
+        <IconesEstilizados src={IconeGithub} alt="Icone GitHub" />
       </a>
-      <a href="#">
-        <IconesEstilizados src={IconeInstagram} alt="Icone GitHub" />
+      <a
+        href="https://www.instagram.com/digosaraujo/"
+        target="_blank"
+        rel="noopener noreferrer"
+      >
+        <IconesEstilizados src={IconeInstagram} alt="Icone Instagram" />
       </a>
-      <a href="#">
+      <a
+        href="https://www.linkedin.com/in/rodrigo-araujo-338530279/"
+        target="_blank"
+        rel="noopener noreferrer"
+      >
         <IconesEstilizados src={IconeLinkedin} alt="Icone Linkedin" />
       </a>
     </ContainerIcones>

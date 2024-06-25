@@ -48,7 +48,11 @@ const FigcaptionCard = styled.figcaption`
 
 const CardNoticia = ({ props }) => {
   return (
-    <CardNoticiasEstilizado href={props.url}>
+    <CardNoticiasEstilizado
+      href={props.url}
+      target="_blank"
+      rel="noopener noreferrer"
+    >
       <FigureCard>
         <ImgCard src={props.img} />
         <FigcaptionCard>

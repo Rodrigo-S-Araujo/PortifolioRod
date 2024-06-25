@@ -24,7 +24,7 @@ const ImagemSecundaria = styled.img`
 
 const CardCursos = ({ prop }) => {
   return (
-    <ContainerCard href={prop.path} target="_blank">
+    <ContainerCard href={prop.path} target="_blank" rel="noopener noreferrer">
       <ContainerIcones>
         <ImagemEscola src={prop.src} alt="" />
         <ImagemSecundaria src={prop.src2} alt="" />

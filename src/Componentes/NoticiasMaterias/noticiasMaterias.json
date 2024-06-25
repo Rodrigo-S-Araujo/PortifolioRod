@@ -10,5 +10,17 @@
     "titulo": "Novidades da Versão 0.74 do React Native",
     "img": "https://blog.rocketseat.com.br/content/images/size/w2000/2024/04/react-native-1.png",
     "url": "https://blog.rocketseat.com.br/novidades-da-versao-0-74-do-react-native/"
+  },
+  {
+    "id": "03",
+    "titulo": "Entenda a importância de criar um site para o seu negócio",
+    "img": "https://www.cloudmarket.com.br/wp-content/uploads/2022/07/pexels-monoar-rahman-109371-1030x555.jpg.webp",
+    "url": "https://www.cloudmarket.com.br/marketing-digital/blog/entenda-a-importancia-de-criar-um-site-para-o-seu-negocio/"
+  },
+  {
+    "id": "04",
+    "titulo": "Descubra como um site para empresas pode transformar seu negócio e destacar sua marca no mundo digital. Conecte-se com clientes de forma eficaz!",
+    "img": "https://sitebrasilonline.com.br/wp-content/webp-express/webp-images/uploads/2024/03/1.jpg.webp",
+    "url": "https://sitebrasilonline.com.br/site-para-empresas-qual-a-importancia/"
   }
 ]

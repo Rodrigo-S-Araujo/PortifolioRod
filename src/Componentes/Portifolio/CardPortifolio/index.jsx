@@ -66,7 +66,11 @@ const CardPortifolio = () => {
   return (
     <CardPortifolioEstilizada>
       <ContainerBotoes>
-        <BotaoGit href="#">
+        <BotaoGit
+          href="https://github.com/Rodrigo-S-Araujo/PortifolioRod"
+          target="_brank"
+          rel="noopener noreferrer"
+        >
           <img src="/assets/git-branco.png" alt="Icone GitHub" />
           <h5>GitHub</h5>
         </BotaoGit>

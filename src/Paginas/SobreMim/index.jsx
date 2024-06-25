@@ -5,7 +5,7 @@ import ConteudoSobreMim from "../../Componentes/ConteudoSobreMim/indes";
 
 const ContainerSobreMim = styled.section`
   display: flex;
-  min-height: 90vh;
+  min-height: 96vh;
   background-color: #505050;
 
   p {
