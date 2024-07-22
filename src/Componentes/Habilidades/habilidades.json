@@ -18,5 +18,15 @@
     "id": 4,
     "titulo": "React",
     "descricao": "O construtor de interfaces, facilita a criação de interfaces complexas e reutilizáveis (como construir um condomínio)."
+  },
+  {
+    "id": 5,
+    "titulo": "TypeScript",
+    "descricao": "Aumenta o poder do JavaScript com tipagem estática, facilitando o desenvolvimento de grandes aplicações."
+  },
+  {
+    "id": 6,
+    "titulo": "Angular",
+    "descricao": "Cria interfaces web escaláveis e com alto desempenho, usando TypeScript e padrões modernos."
   }
 ]

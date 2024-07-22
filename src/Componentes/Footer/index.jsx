@@ -9,6 +9,10 @@ const FooterEstilizado = styled.footer`
   display: flex;
   justify-content: space-between;
   align-items: center;
+
+  @media print {
+    display: none;
+  }
 `;
 
 const Footer = () => {

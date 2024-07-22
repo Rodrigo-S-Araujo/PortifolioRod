@@ -3,6 +3,7 @@ import Principal from "./Paginas/Principal";
 import Footer from "./Componentes/Footer";
 import SobreMIm from "./Paginas/SobreMim";
 import NaoEncontrada from "./Paginas/NaoEncontrado";
+import Apresentacao from "./Paginas/Apresentacao";
 
 function AppRoutes() {
   return (
@@ -10,6 +11,7 @@ function AppRoutes() {
       <Routes>
         <Route path="/" element={<Principal />} />
         <Route path="/sobremim" element={<SobreMIm />} />
+        <Route path="/apresentacao" element={<Apresentacao />} />
         <Route path="*" element={<NaoEncontrada />} />
       </Routes>
       <Footer />

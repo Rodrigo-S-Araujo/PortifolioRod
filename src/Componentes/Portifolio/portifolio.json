@@ -1,8 +1,16 @@
 [
   {
+    "id": "1",
     "titulo": "Meu Portifólio",
     "subtitulo": "Pagina desenvolvida com finalidade de mostrar os projetos , habilidades e cursos que conquistei.",
-    "path": "/imagens/portifolio/1",
+    "path": "assets/portifolio.png",
     "git": "https://github.com/Rodrigo-S-Araujo/PortifolioRod"
+  },
+  {
+    "id": "2",
+    "titulo": "Projetos compartilhados",
+    "subtitulo": "Projetos desenvolvidos em Bootcamps, Code Chalenges e Durante as minhas formações.",
+    "path": "assets/pasta.svg",
+    "git": ""
   }
 ]

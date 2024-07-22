@@ -3,7 +3,7 @@ import AvatarPrincipal from "/assets/meu-avatar.png";
 import IconesRedesSociais from "../IconesRedesSociais";
 
 const ContainerCover = styled.section`
-  width: 100vw;
+  max-width: 100vw;
   height: auto;
   display: flex;
   flex-direction: column;
@@ -25,6 +25,7 @@ const AvatarEstilizado = styled.img`
   max-width: 50vw;
   height: auto;
   padding: 5% 10% 0 10%;
+  margin: 0;
   border-bottom: 1px solid #fff;
   @media (min-width: 760px) and (max-width: 1200px) {
     max-width: 40vw;
@@ -45,7 +46,7 @@ const DivApresentacao = styled.div`
   margin-bottom: 2rem;
 `;
 
-const Cover = ({ ref, path, alt }) => {
+const Cover = () => {
   return (
     <ContainerCover>
       <AvatarEstilizado src={AvatarPrincipal} alt="Avatar Rodrigo Araujo" />

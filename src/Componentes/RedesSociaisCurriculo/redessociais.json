@@ -1,0 +1,27 @@
+[
+  {
+    "rede": "Portifolio: www.rodaraujo.tech",
+    "icone": "assets/avatar-branco.png",
+    "link": "https://www.rodaraujo.tech"
+  },
+  {
+    "rede": "WhatsApp: +55 (44) 99167-6711",
+    "icone": "assets/whatsapp.png",
+    "link": "https://wa.me/5544991676711"
+  },
+  {
+    "rede": "GitHub: Rod-S-Araujo",
+    "icone": "assets/git-branco.png",
+    "link": "https://github.com/Rod-S-Araujo"
+  },
+  {
+    "rede": "Linkedin: in/rodaraujotech",
+    "icone": "assets/linkedin-branco.png",
+    "link": "https://www.linkedin.com/in/rodaraujotech"
+  },
+  {
+    "rede": "Instagram: @digosaraujo",
+    "icone": "assets/insta-branco.png",
+    "link": "https://www.instagram.com/digosaraujo/"
+  }
+]

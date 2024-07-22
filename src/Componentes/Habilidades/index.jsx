@@ -30,7 +30,7 @@ const Card = styled.li`
     max-width: 20%;
   }
   @media (min-width: 1201px) {
-    max-width: 15%;
+    max-width: 10%;
   }
 `;
 

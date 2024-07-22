@@ -2,6 +2,19 @@ import styled from "styled-components";
 import CardCursos from "./CardCursos";
 import imersoes from "./imersoes.json";
 import cursos from "./CatchCursos/cursos.json";
+import BotaoFilter from "./BotaoFilter";
+import { useState } from "react";
+
+const linguagens = [
+  "HTML",
+  "CSS",
+  "HTTP",
+  "JavaScript",
+  "TypeScript",
+  "React",
+  "Angular",
+  "C#",
+];
 
 const ContainerCursosCertificado = styled.section`
   display: flex;
@@ -17,7 +30,7 @@ const ContainerConteudo = styled.div`
 const ConteudoCursos = styled.ul`
   display: flex;
   padding: 0;
-  justify-content: space-evenly;
+  justify-content: space-around;
   flex-wrap: wrap;
 `;
 const BoxCurso = styled.li`
@@ -37,7 +50,34 @@ const BoxCurso = styled.li`
     width: 15vw;
   }
 `;
+const ContainerMenuLinguagens = styled.div`
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin: 30px 10px;
+`;
+
 const CursosCertificados = () => {
+  const [filtroAtivo, setFiltroAtivo] = useState(null);
+
+  const marcaFiltroAtivo = (linguagem) => {
+    if (filtroAtivo === linguagem) {
+      setFiltroAtivo(null);
+    } else {
+      setFiltroAtivo(linguagem);
+    }
+  };
+
+  let cursosFiltrados;
+
+  if (filtroAtivo) {
+    cursosFiltrados = cursos.filter((curso) =>
+      curso.titulo.includes(filtroAtivo)
+    );
+  } else {
+    cursosFiltrados = cursos;
+  }
   return (
     <ContainerCursosCertificado>
       <h2>Conquistas</h2>
@@ -52,8 +92,18 @@ const CursosCertificados = () => {
           ))}
         </ConteudoCursos>
         <h4>Cursos e Certificados</h4>
+        <ContainerMenuLinguagens>
+          {linguagens.map((linguagem) => (
+            <BotaoFilter
+              onClick={() => marcaFiltroAtivo(linguagem)}
+              linguagem={linguagem}
+              key={linguagem}
+              ehAtiva={filtroAtivo === linguagem ? "ativa" : "inativa"}
+            />
+          ))}
+        </ContainerMenuLinguagens>
         <ConteudoCursos id="containerConteudoCursos">
-          {cursos.map((prop) => (
+          {cursosFiltrados.map((prop) => (
             <BoxCurso key={prop.id}>
               <CardCursos prop={prop} />
             </BoxCurso>

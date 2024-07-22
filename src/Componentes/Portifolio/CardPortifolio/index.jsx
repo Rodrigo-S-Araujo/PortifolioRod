@@ -15,9 +15,10 @@ const CardPortifolioEstilizada = styled.li`
 `;
 const ContainerBotoes = styled.div`
   display: flex;
-  background-image: url("/assets/portifolio.png");
-  background-size: cover;
+  background-image: url(${(props) => props.urlbg});
+  background-size: contain;
   background-position: center;
+  background-repeat: no-repeat;
   position: relative;
   height: 100px;
   width: 130px;
@@ -62,29 +63,27 @@ const ContainerTexto = styled.div`
   text-align: center;
 `;
 
-const CardPortifolio = () => {
+const CardPortifolio = ({ projeto }) => {
   return (
     <CardPortifolioEstilizada>
-      <ContainerBotoes>
+      <ContainerBotoes urlbg={projeto.path}>
         <BotaoGit
-          href="https://github.com/Rodrigo-S-Araujo/PortifolioRod"
+          href={projeto.git}
           target="_brank"
           rel="noopener noreferrer"
+          style={{ display: projeto.git ? "flex" : "none" }}
         >
           <img src="/assets/git-branco.png" alt="Icone GitHub" />
           <h5>GitHub</h5>
         </BotaoGit>
-        <BotaoFigma href="#">
+        <BotaoFigma href="#" style={{ display: projeto.git ? "flex" : "none" }}>
           <img src="/assets/figmaico.png" alt="Icone GitHub" />
           <h5>Figma</h5>
         </BotaoFigma>
       </ContainerBotoes>
       <ContainerTexto>
-        <h4>Meu portifólio</h4>
-        <h5>
-          Pagina desenvolvida com finalidade de mostrar os projetos ,
-          habilidades e cursos que conquistei.
-        </h5>
+        <h4>{projeto.titulo}</h4>
+        <h5>{projeto.subtitulo}</h5>
       </ContainerTexto>
     </CardPortifolioEstilizada>
   );

@@ -9,6 +9,7 @@ const SecaoSobreMim = styled.section`
   gap: 10px;
   @media (min-width: 1201px) {
     flex-direction: row;
+    padding: 10% 20%;
   }
   h2 {
     text-align: center;
@@ -21,7 +22,13 @@ const SecaoSobreMim = styled.section`
     max-width: 80%;
     border-radius: 5px;
     @media (min-width: 1201px) {
-      min-width: 25vw;
+      min-width: 15vw;
+    }
+  }
+  p {
+    @media (min-width: 1201px) {
+      font-size: 1.2rem;
+      font-weight: 400;
     }
   }
 `;
